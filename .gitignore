@@ -174,16 +174,12 @@ cython_debug/
 .pypirc
 
 *.log
-outputs/
 logs/
 tmp*
 wandb/
 checkpoints/
 logs/
-saved_adv_prompts/
 *.lock
 runs/
 
-data/InjecAgent/dataset/*
 data/InjecAgent/raw/*
-data/InjecAgent/tools.json
