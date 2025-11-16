@@ -56,3 +56,5 @@ class EvalConfig:
     run_name: str = "test"
     output_dir: str = "outputs/test"
     save_name: str = "default"
+    enable_attention_profiling: bool = False
+    attention_log_dir: str = "attention_logs"
